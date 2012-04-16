@@ -11,10 +11,10 @@ Download plugin file
 
 ### Step 2
 
-In Joomla administration, set Extensions > Install
-
+In Joomla administration, set Extensions > Extension manager
+Install the package by uploading the zip file
 
 ### Step 3
 
-Initialize the plugin in Extensions > Plugin
-Switch this plugin System active and Set up.
+Initialize the plugin in Extensions > Plugin Manager
+Switch this plugin "System - Unpublish frontend item" active and Set up.
