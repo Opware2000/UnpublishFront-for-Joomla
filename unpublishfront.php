@@ -42,7 +42,7 @@ class plgSystemUnpublishfront extends JPlugin
 		$excludes 	= $this->params->get('excludes',0);
 		
 		// Get a database object
-		$db =& JFactory::getDBO();
+		$db = JFactory::getDBO();
 		// default query
 		$query = "SELECT id FROM #__content WHERE TO_DAYS( NOW( ) ) - TO_DAYS( `created` ) >=".$days.' AND id NOT IN('.$excludes.')';
 		// query addapted
@@ -60,7 +60,7 @@ class plgSystemUnpublishfront extends JPlugin
 			 }
 		}
 		$db->setQuery($query);
-		$rows = $db->loadResultArray();
+		$rows = $db->loadColumn();
 		//print_r($rows);	
 		$daystring = implode(',' , $rows);
 	
