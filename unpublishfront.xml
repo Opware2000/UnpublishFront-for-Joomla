@@ -28,7 +28,7 @@
 			<option value="modified">PLG_SYSTEM_UNPUBLISHFRONT_MODIFIED</option>
 			<option value="publish_up">PLG_SYSTEM_UNPUBLISHFRONT_PUBLISH</option>
          	</field>    
-         	<field namename="excludes" type="text" default="0,1,2" label="PLG_SYSTEM_UNPUBLISHFRONT_EXCLUDE_LABEL" description="PLG_SYSTEM_UNPUBLISHFRONT_EXCLUDE_DESCRIPTION" />
+         	<field name="excludes" type="text" default="0,1,2" label="PLG_SYSTEM_UNPUBLISHFRONT_EXCLUDE_LABEL" description="PLG_SYSTEM_UNPUBLISHFRONT_EXCLUDE_DESCRIPTION" />
 		 </fieldset>
 	</fields>
 	</config>
