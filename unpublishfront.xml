@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension version="2.5" type="plugin" group="system">
+<extension version="3.3" type="plugin" group="system" method="upgrade">
 	 <name>PLG_SYSTEM_UNPUBLISHFRONT_TITLE</name>
     <author>Nicolas OGIER</author>
-    <creationDate>9-April-2012</creationDate>
+    <creationDate>9-April-2012/Mars 2015</creationDate>
     <copyright>This extension in released under the GNU/GPL License - http://www.gnu.org/copyleft/gpl.html</copyright>
     <authorEmail>webmaster@nicolas-ogier.fr</authorEmail>
 	<authorUrl>http://www.nicolas-ogier.fr/download/unpublishfront.html</authorUrl>
-	<version>2.5-1.0</version>
+	<version>3.0</version>
 	<description>PLG_SYSTEM_UNPUBLISHFRONT_DESCRIPTION</description>
 	<files>
 		<filename plugin="unpublishfront">unpublishfront.php</filename>
 		<filename plugin="unpublishfront">index.html</filename>
+		<folder>language</folder>
 	</files>
-	<languages folder="language">
-		<language tag="en-GB">en-GB.plg_system_unpublishfront.ini</language>
-		<language tag="en-GB">en-GB.plg_system_unpublishfront.sys.ini</language>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_unpublishfront.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_unpublishfront.sys.ini</language>
+		<language tag="fr-FR">language/fr-FR/fr-FR.plg_system_unpublishfront.ini</language>
+		<language tag="fr-FR">language/fr-FR/fr-FR.plg_system_unpublishfront.sys.ini</language>
 	</languages>
 	<config>
 	<fields name="params">
@@ -25,8 +28,10 @@
 			<option value="modified">PLG_SYSTEM_UNPUBLISHFRONT_MODIFIED</option>
 			<option value="publish_up">PLG_SYSTEM_UNPUBLISHFRONT_PUBLISH</option>
          	</field>    
-         	<field namename="excludes" type="text" default="0,1,2" label="PLG_SYSTEM_UNPUBLISHFRONT_EXCLUDE_LABEL" description="PLG_SYSTEM_UNPUBLISHFRONT_EXCLUDE_DESCRIPTION" />
+         	<field name="excludes" type="text" default="0,1,2" label="PLG_SYSTEM_UNPUBLISHFRONT_EXCLUDE_LABEL" description="PLG_SYSTEM_UNPUBLISHFRONT_EXCLUDE_DESCRIPTION" />
 		 </fieldset>
 	</fields>
 	</config>
 </extension>
+
+
