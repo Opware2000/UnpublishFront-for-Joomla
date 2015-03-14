@@ -2,7 +2,7 @@
 <extension version="3.3" type="plugin" group="system" method="upgrade">
 	 <name>PLG_SYSTEM_UNPUBLISHFRONT_TITLE</name>
     <author>Nicolas OGIER</author>
-    <creationDate>9-April-2012/Mars 2015</creationDate>
+    <creationDate>Mars 2015</creationDate>
     <copyright>This extension in released under the GNU/GPL License - http://www.gnu.org/copyleft/gpl.html</copyright>
     <authorEmail>webmaster@nicolas-ogier.fr</authorEmail>
 	<authorUrl>http://www.nicolas-ogier.fr/download/unpublishfront.html</authorUrl>

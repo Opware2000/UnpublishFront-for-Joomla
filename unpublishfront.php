@@ -4,7 +4,7 @@
  *  @package     Unpublishfront -  unpublish articles from frontpage for Joomla 2.5
  *  @author      Nicolas OGIER {@link http://www.nicolas-ogier.fr}
  *  				based on Dmitry V. Smirnov (http://www.joomlatune.ru) plugin for Joomla 1.5
- *  @version     2.5-1.0 - 06-April-2012
+ *  @version     3.0 - 14-Mars-2015 for Joomla 3.4
  *  @link        http://www.nicolas-ogier.fr/download/unpublishfront.html
  *
  *  @license GNU/GPL
