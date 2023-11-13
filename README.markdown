@@ -1,4 +1,7 @@
 # UnpublishFront for Joomla
+
+**This plugin is no longer maintained.**
+
 ## Plugin for Joomla 3.4
 This plugin unset frontpage status on articles, after x days from created, published or last modify date.
 Based on  Dmitry V. Smirnov plugin for Joomla 1.5 (http://www.joomlatune.ru)
